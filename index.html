@@ -7,26 +7,16 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="icon" href="img/photo_2025-05-17_20-40-07.jpg" type="image/png" />
 </head>
-<body>
+<body class="bg-white md:bg-[#F7F3FA]">
     <div>
         <header class="text-white relative h-screen md:px-[200px] md:py-[20px]">
-            <img
-                src="img/Group.png"
-                alt="Phone bg"
-                class="block md:hidden absolute inset-0 w-full h-full object-cover -z-10"
-            />
-            <img 
-                src="img/Group 1 (2).png" 
-                alt="Desktop bg"
-                class="hidden md:block absolute bottom-10  inset-0 w-full h-[700px] -z-10" 
-            />
+            <img src="img/Group.png" alt="Phone bg" class="block md:hidden absolute inset-0 w-full h-full object-cover -z-10" />
+            <img src="img/Group 1 (2).png" alt="Desktop bg" class="hidden md:block absolute bottom-[10px] inset-0 w-full h-[700px] -z-10" />
             <nav class="flex justify-between items-center p-[20px]">
                 <div class="flex items-center space-x-2">
                     <img class="w-[1.3125rem] h-[1.4375rem] md:w-[38px] md:h-[41px]" src="img/Group 40.png" alt="logo" />
                     <p class="text-[23px] font-bold text-white m-0 md:text-[36px]">Blinqpay</p>
                 </div>
-
-
                 <div class="hidden md:flex items-center justify-between w-full px-6">
                     <ul class="flex justify-center flex-1 gap-[60px] text-[16px] text-white mt-5">
                         <li><a href="#">Products</a></li>
@@ -34,16 +24,11 @@
                         <li><a href="#">Company</a></li>
                         <li><a href="#">Pricing</a></li>
                     </ul>
-
                     <div class="flex gap-10 mt-5">
                         <p class="text-[16px] font-bold text-white mt-1">Support</p>
-                        <button class="rounded-2xl bg-[#FFBC51] hover:bg-[#E6A743] py-1.5 px-8 font-bold">
-                            Sign in
-                        </button>
+                        <button class="rounded-2xl bg-[#FFBC51] hover:bg-[#E6A743] py-1.5 px-8 font-bold">Sign in</button>
                     </div>
                 </div>
-
-
                 <div class="w-5 h-4 flex flex-col justify-between cursor-pointer mt-1.5 md:hidden">
                     <span class="block h-0.5 bg-white rounded"></span>
                     <span class="block h-0.5 bg-white rounded"></span>
@@ -61,14 +46,14 @@
 
                 <div class="hidden md:block">
                     <img 
-                    src="img/image 6.png" 
-                    alt="PC"
-                    class="absolute bottom-50 right-35 z-10 w-[1000px]"
+                        src="img/image 6.png" 
+                        alt="PC"
+                        class="absolute bottom-[50px] right-[35px] z-10 w-[1000px]"
                     />
                     <img 
-                    src="img/image 7.png" 
-                    alt="LAPTOP"
-                    class="absolute bottom-53 right-15 z-20"
+                        src="img/image 7.png" 
+                        alt="LAPTOP"
+                        class="absolute bottom-[53px] right-[15px] z-20"
                     />
                 </div>
 
@@ -77,57 +62,144 @@
                 </button>
             </div>
         </header>
+
         <main>
-            <div class="">
-                <div class="">
-                    <div class="block md:hidden relative h-60">
-                        <img 
-                        src="img/image 6.png"
-                        alt="PC"
-                        class="absolute bottom-5 z-10"
-                        />
-                        <img 
-                        src="img/image 7.png" 
-                        alt="LAPTOP"
-                        class="absolute bottom-3 right-5 z-20"
-                        />
+                    <div class="flex md:hidden relative h-60 justify-center">
+                        <img src="img/image 6.png" alt="PC" class="absolute bottom-5 z-10" />
+                        <img src="img/image 7.png" alt="LAPTOP" class="absolute bottom-3 right-5 z-20" />
                     </div>
-                    <div class="p-4 md:flex md:justify-end">
-                    <div class="flex flex-col md:flex-col md:gap-6">
-                        <p class="text-[#857885] text-[32px] font-medium md:max-w-[330px] md:text-[45px]">
-                            Make & Share <span class="text-[#5C0E62] font-bold">Payments</span> With Community
+
+            <div class="md:flex md:items-center md:justify-between md:px-[200px] md:py-[100px]">
+    <div class="hidden md:grid grid-cols-2 gap-15 mt-[150px]">
+        <div class="relative">
+            <div class="border border-white rounded bg-white px-[60px] py-8 hover:bg-[#e6e6e6cc]">
+                <div class="absolute top-0 left-0 h-full w-1.5 rounded-2xl bg-gradient-to-b from-[#229ace] to-[#341772]"></div>
+                <img src="img/cash-outline 1.png" alt="">
+                <p class="text-[#5C5E6E] text-[25px] font-medium">Cashflow Visiblity</p>
+                <p class="text-[#756F6F] text-[18px] max-w-[200px]">Now track all of your transaction easily.</p>
+            </div>
+        </div>
+
+        <div class="relative bottom-10">
+            <div class="border border-white rounded bg-white px-[60px] py-8 hover:bg-[#e6e6e6cc]">
+                <div class="absolute top-0 left-0 h-full w-1.5 rounded-2xl bg-gradient-to-b from-[#229ace] to-[#341772]"></div>
+                <img src="img/receipt-outline 1.png" alt="">
+                <p class="text-[#5C5E6E] text-[25px] font-medium">Manage Invoicing</p>
+                <p class="text-[#756F6F] text-[18px] max-w-[200px]">Now track all of your transaction easily.</p>
+            </div>
+        </div>
+
+        <div class="relative">
+            <div class="border border-white rounded bg-white px-[60px] py-8 hover:bg-[#e6e6e6cc]">
+                <div class="absolute top-0 left-0 h-full w-1.5 rounded-2xl bg-gradient-to-b from-[#229ace] to-[#341772]"></div>
+                <img src="img/accessibility-outline 1.png" alt="">
+                <p class="text-[#5C5E6E] text-[25px] font-medium">Easy Access</p>
+                <p class="text-[#756F6F] text-[18px] max-w-[200px]">Now track all of your transaction easily.</p>
+            </div>
+        </div>
+
+        <div class="relative bottom-10">
+            <div class="border border-white rounded bg-white px-[60px] py-8 hover:bg-[#e6e6e6cc]">
+                <div class="absolute top-0 left-0 h-full w-1.5 rounded-2xl bg-gradient-to-b from-[#229ace] to-[#341772]"></div>
+                <img src="img/analytics-outline 1.png" alt="">
+                <p class="text-[#5C5E6E] text-[25px] font-medium">Use You Connect</p>
+                <p class="text-[#756F6F] text-[18px] max-w-[200px]">Now track all of your transaction easily.</p>
+            </div>
+        </div>
+    </div>
+<div class="p-4 md:max-w-[400px] md:mb-[150px] md:mr-[100px]">
+    <p class="text-[#857885] text-[32px]  font-medium md:text-[45px] leading-tight">
+    Make & Share <span class="text-[#5C0E62] font-bold">Payments</span> With
+    <br class="block md:hidden" />
+    Community
+    </p>
+    <p class="text-[#857885] text-[20px] font-medium mt-4 leading-relaxed">
+    Hac sem ut eget tellus diam convallis lacus
+    <br class="block md:hidden" />
+    a, interdum nulla sem adipiscing inw
+    </p>
+    <button class="flex items-center text-[#5C0E62] text-[23px] font-bold mt-6">
+    Learn more
+    <img
+        class="hidden md:block ml-2 w-[17px] h-[10px] mt-1"
+        src="img/Vector 8.png"
+        alt="arrow"
+    />
+    </button>
+</div>
+</div>
+
+
+
+            <section class="relative flex items-center justify-center">
+            <div class="absolute top-[-200px] -z-10 w-full">
+                <img class="w-full" src="img/Vector 3 (1).png" alt="">
+            </div>
+            <div class="md:flex md:items-center md:justify-center gap-10 relative max-w-6xl w-full px-5">
+                <div class="md:w-1/2">
+                    <div class="flex justify-center h-full py-[50px]">
+                        <img class="md:hidden block w-auto h-[300px]" src="img/image 14.png" alt="LAPTOP">
+                    </div>
+                    <p class="text-[#E23434] font-bold text-[18px]">CREDIET CARD</p>
+                    <p class="text-[#857885] text-[34px] font-medium md:font-bold md:text-[45px] leading-tight">
+                        Payment <span class="text-[#5C0E62]"> Gets Easier</span>
+                    </p>
+                    <p class="text-[#857885] text-[19px] font-medium mt-4">
+                        Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw
+                    </p>
+                    <button class="flex items-center text-[#5C0E62] text-[23px] font-bold mt-6">
+                        Learn more
+                    <img class="hidden md:block ml-2 w-[17px] h-[10px] mt-1" src="img/Vector 8.png" alt="arrow">
+                    </button>
+                    </div>
+
+                    <div class="md:w-1/2 flex justify-center">
+                        <img src="img/image 14 (2).png" alt="" class="hidden md:block">
+                    </div>
+                </div>
+            </section>
+            <section class="">
+                <div class="px-5">
+                    <div class="flex justify-center py-[80px]">
+                        <img class=" h-auto w-[350px]" src="img/Group 429.png" alt="people">
+                    </div>
+                    <div class="">
+                        <p class="text-[#E23434] text-[18px] font-bold">
+                            MOBILE TRANSACTION
                         </p>
-                        <p class="text-[#857885] text-[20px] font-medium md:max-w-[350px] md:text-[20px] md:-mt-4">
+                        <p class="text-[#857885] text-[34px] font-medium md:font-bold md:text-[45px]">
+                            Smart Mobile <span class="text-[#5C0E62]">Banking</span>
+                        </p>
+                        <p class="text-[#857885] text-[19px] font-medium">
                             Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw
-                            </p>
-                            <img class="hidden md:flex flex-col w-[17px] h-[10px]" src="img/Vector 8.png" alt="arrow">
-                    <button class="text-[#5C0E62] text-[25px] text-left font-bold mt-5 md:text-[23px] md:text-left md:-mt-4">
+                        </p>
+                        <button class="text-[#5C0E62] text-[23px] font-bold mt-6">
+                            Learn more
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="">
+                <div class="">
+                    <div class="">
+                        <img class="py-[80px] w-full h-auto" src="img/Mask Group.png" alt="">
+                    </div>
+                    <div class="px-5">
+                        <p class="text-[#E23434] text-[18px] font-bold">
+                            SECURE TRANSACTION
+                        </p>
+                        <p class="text-[#857885] text-[34px] font-medium md:font-bold md:text-[45px]">
+                            Safe Yours <span class="text-[#5C0E62]">Savings</span>
+                        </p>
+                        <p class="text-[#857885] text-[19px] font-medium">
+                            Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw
+                        </p>
+                    <button class=" text-[#5C0E62] text-[23px] font-bold mt-6">
                         Learn more
                     </button>
-                </div>
-            </div>
-
-                </div>
-                <section class="p-4">
-                    <div class="">
-                        <div class="block md:hidden my-12">
-                            <img 
-                            src="img/image 14.png" 
-                            alt="TABLET"
-                            class="ml-18 w-[300px] h-[300px]"
-                            />
-                        </div>
-                        <div class="">
-                            <p class="text-[#E23434] font-bold text-[18px]">CREDIET CARD</p>
-                            <p class="text-[#857885] text-[34px] font-medium">Payment <span class="text-[#5C0E62]">Gets Easier</span></p>
-                            <p class="text-[#857885] text-[20px] font-medium">Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem adipiscing inw</p>
-                            <button class="text-[#5C0E62] font-bold text-[20px] mt-5">
-                                Learn more
-                            </button>
-                        </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>
