@@ -11,5 +11,8 @@ This project is a prototype that demonstrates ideas for user-friendly interface 
 Perfect for testing UX/UI concepts and serving as a foundation for further development into a full product.
 
 Experience it live:
-
-👉 Check it out here!
+<div>
+<a href="https://tyebzx0.github.io/Blinqpay/" class="demo-button" target="_blank">
+    👉 Check it out here!
+</a>
+</div>
